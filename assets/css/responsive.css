@@ -85,6 +85,7 @@
     }
 
     .bg-transparent {
+        transition: background-color 0.5s linear 0.3s;
         background-color: transparent;
     }
 
@@ -116,7 +117,7 @@
     }
 
     #side_bar {
-        width: 40%;
+        width: 35%;
         /* display: none; */
         transform: translateX(-100%);
     }
@@ -163,7 +164,7 @@
 
     #side_bar {
         /* display: none; */
-        width: 45%;
+        width: 40%;
         transform: translateX(-100%);
     }
 

@@ -5,7 +5,7 @@ const content_modal = document.querySelector('.content_modal');
 let side_barOpen = false;
 home_user.onclick = () => {
     if (side_barOpen) {
-        side_bar.setAttribute("style", "transform: translateX(-100%)");
+        side_bar.setAttribute("style", "transform: translateX(-100%);transition : transform 0.4s ease-out 0.1s;");
         content_modal.classList.remove('hide_modal');
         content_modal.classList.add('bg-transparent');
         side_barOpen = false;
@@ -16,9 +16,6 @@ home_user.onclick = () => {
         side_barOpen = true;
     }
 }
-
-
-
 const home_bar = document.querySelector(".home_bar");
 const nav_left = document.querySelector(".navbar-left")
 let home_barOpen = false;
