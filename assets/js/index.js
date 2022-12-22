@@ -36,3 +36,9 @@ document.onclick = function (e) {
         side_barOpen = false;
     }
 };
+
+window.addEventListener("resize", () => {
+    if (document.body.offsetWidth > 1024) {
+        side_bar.setAttribute("style", "display: block");
+    }
+});
