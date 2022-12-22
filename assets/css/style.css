@@ -169,7 +169,7 @@ html {
     bottom: 0;
     z-index: 1;
     margin-top: 90px;
-    z-index: 1000;
+    z-index: 103;
 }
 
 #side_bar .side_bar-card img {
@@ -213,9 +213,9 @@ html {
 .side_bar-birth {
     text-align: center;
     width: 50%;
-    padding: 20px;
+    padding: 20px 10px;
     border-bottom: 1px solid #4d769b;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .side_bar-birth {

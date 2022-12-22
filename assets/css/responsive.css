@@ -163,7 +163,7 @@
 
     #side_bar {
         /* display: none; */
-        width: 40%;
+        width: 50%;
         transform: translateX(-100%);
     }
 
