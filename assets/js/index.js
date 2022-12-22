@@ -28,3 +28,11 @@ home_bar.onclick = () => {
         home_barOpen = true;
     }
 }
+
+document.onclick = function (e) {
+    if (e.target == content_modal) {
+        side_bar.style.transform = 'translateX(-100%)';
+        content_modal.classList.remove('hide_modal');
+        side_barOpen = false;
+    }
+};

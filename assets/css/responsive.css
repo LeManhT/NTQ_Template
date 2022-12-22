@@ -85,7 +85,6 @@
     }
 
     .bg-transparent {
-        transition: background-color 0.5s linear 0.3s;
         background-color: transparent;
     }
 

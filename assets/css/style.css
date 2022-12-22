@@ -169,6 +169,7 @@ html {
     bottom: 0;
     z-index: 1;
     margin-top: 90px;
+    z-index: 1000;
 }
 
 #side_bar .side_bar-card img {
