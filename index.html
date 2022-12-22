@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Odoo</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="header">
+            <div class="bar">
+                <div class="home_user">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="home_bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+            <ul class="navbar-left">
+                <li>
+                    <a href=""><span>Dashboard</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Tax Finalization</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Calendar</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Working Timesheet</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Appraisals</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Project</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Timesheet</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Employees</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Assets</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Help desk</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span>Personal Info</span></a>
+                </li>
+
+                <li class="li_more">
+                    <a href=""><span>More <i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-right"></i>
+                            <ul class="more-subnav">
+                                <li> <a href="">Infor</a> </li>
+                                <li> <a href=""> About</a> </li>
+                                <li> <a href="">Contact</a> </li>
+                            </ul>
+                        </span></a>
+                </li>
+            </ul>
+
+            <div class="navbar-right">
+                <ul class="navbar-right__icon">
+                    <li>
+                        <a href=""><i class="fa-solid fa-clock"></i></a>
+                    </li>
+
+                    <li>
+                        <a href=""><i class="fa-solid fa-comments"></i></a>
+                    </li>
+                </ul>
+
+                <div class="navbar-right__info">
+                    <div class="right-info__img">
+                        <img src="./assets/img/image (1).png" alt="">
+                        <span>Lê Quốc Mạnh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="panel">
+
+            </div>
+
+            <div id="content">
+                <div class="content_modal">
+                    <div id="side_bar">
+                        <div class="side_bar-card">
+                            <img src="./assets/img/card.png" alt="">
+                        </div>
+
+                        <div class="side_bar-body">
+                            <h2>Lê Quốc Mạnh</h2>
+                            <p>Internship</p>
+                            <p>Intern</p>
+                        </div>
+
+                        <div class="side_bar-details">
+                            <div class="side_bar-gender">
+                                <p><i class="fa-solid fa-mars"></i></p>
+                                <p>Nam</p>
+                            </div>
+
+                            <div class="side_bar-birth">
+                                <p>DOB</p>
+                                <p>05/09/2002</p>
+                            </div>
+                        </div>
+                        <div class="side_bar-start_work">
+                            <p>Đã vào làm </p>
+                            <p>5 ngày</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="main_content">
+                    <div class="content_marquee">
+                        <marquee behavior="" direction="left">Xin chào Lê Quốc Mạnh, chúc bạn có một
+                            ngày làm việc thật vui vẻ và hiệu quả !</marquee>
+                    </div>
+                    <div class="main_content-body">
+                        <div class="pending">
+                            <h4>Chờ phê duyệt</h4>
+                            <button class="pending__item">
+                                <p>Xin nghỉ</p>
+                                <span>0</span>
+                            </button>
+                            <button class="pending__item">
+                                <p>Đi muộn/Về sớm</p>
+                                <span>0</span>
+                            </button>
+                            <button class="pending__item">
+                                <p>Xin WFH</p>
+                                <span>0</span>
+                            </button>
+                            <button class="pending__item">
+                                <p>Chấm công WFH</p>
+                                <span>0</span>
+                            </button>
+                        </div>
+
+                        <div class="listToDo">
+                            <h4>Việc cần làm</h4>
+                            <button class="listToDo__item">
+                                <p>Xin nghỉ</p>
+                                <span>0</span>
+                            </button>
+                            <button class="listToDo__item">
+                                <p>Đi muộn/Về sớm</p>
+                                <span>0</span>
+                            </button>
+                            <button class="listToDo__item">
+                                <p>Xin WFH</p>
+                                <span>0</span>
+                            </button>
+                            <button class="listToDo__item">
+                                <p>Chấm công WFH</p>
+                                <span>0</span>
+                            </button>
+                            <button class="listToDo__item">
+                                <p>Đánh giá hợp đồng</p>
+                                <span>0</span>
+                            </button>
+                        </div>
+
+                        <div class="more_info">
+                            <h4>Thông tin khác</h4>
+                            <button class="more-info__item">
+                                <p>Dự án</p>
+                                <span><i class="fa-solid fa-angle-right"></i></span>
+                            </button>
+                            <button class="more-info__item">
+                                <p>Làm thêm giờ</p>
+                                <span><i class="fa-solid fa-angle-right"></i></span>
+                            </button>
+                            <button class="more-info__item">
+                                <p>Chấm công làm thêm giờ</p>
+                                <span><i class="fa-solid fa-angle-right"></i></span>
+                            </button>
+                            <button class="more-info__item">
+                                <p>Time sheet gửi khách hàng</p>
+                                <span><i class="fa-solid fa-angle-right"></i></span>
+                            </button>
+                            <button class="more-info__item">
+                                <p>Xem phiếu lương</p>
+                                <span><i class="fa-solid fa-angle-right"></i></span>
+                            </button>
+                            <button class="more-info__item">
+                                <p>Ủy quyền quyết toán thuế</p>
+                                <span><i class="fa-solid fa-angle-right"></i></span>
+                            </button>
+                        </div>
+
+                        <div class="register">
+                            <div class="register_title">
+                                <h4>Điểm danh</h4>
+                            </div>
+                            <div class="register-content">
+                                <div class="scroll_meet">
+                                    <div class="register_table">
+                                        <table style="width: 100%">
+                                            <tr>
+                                                <th class="title_attendance">Ngày</th>
+                                                <th class="title_attendance">Giờ vào</th>
+                                                <th class="title_attendance">Giờ về</th>
+                                            </tr>
+
+                                            <tr>
+                                                <td>19-12-2022</td>
+                                                <td>08:15</td>
+                                                <td>17:47</td>
+                                            </tr>
+                                            <tr>
+                                                <td>16-12-2022</td>
+                                                <td>08:11</td>
+                                                <td>17:49</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15-12-2022</td>
+                                                <td>08:20</td>
+                                                <td>17:49</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="main_content-bottom">
+                        <div class="vacation">
+                            <div class="vaction_title">
+                                <h4>Nghỉ phép</h4>
+                            </div>
+                            <div class="vacation-scroll">
+                                <div class="vacation_table">
+                                    <table style="width: 100%;">
+                                        <tr>
+                                            <th class="attendance__title">Loại nghỉ</th>
+                                            <th class="attendance__title">Đã dùng</th>
+                                            <th class="attendance__title">Còn lại</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Nghỉ không lương</td>
+                                            <td>0</td>
+                                            <td>60</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Nghỉ vì việc gia đình (Bố, mẹ, vợ, chồng mất)</td>
+                                            <td>0</td>
+                                            <td>3</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Nghỉ cưới</td>
+                                            <td>0</td>
+                                            <td>3</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Nghỉ bù OT</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="meeting">
+                            <div class="meeting_title">
+                                <h4>Lịch họp hôm nay</h4>
+                            </div>
+                            <div class="meeting_content">
+
+                                <div class="scroll_meeting">
+                                    <p style="padding-top: 15%;"></p>
+                                    <center>
+                                        Bạn không có lịch họp hôm nay
+                                        <br />
+                                        Ấn vào + để tạo lịch họp
+                                    </center>
+                                    <div class="plus_meeting">
+                                        <center><i class="fa-solid fa-plus"></i></center>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="member_birthday">
+                            <div class="member_birthday__title">
+                                <h4>Sinh nhật thành viên</h4>
+                            </div>
+
+
+
+                            <div class="member_birthday__content">
+                                <div class="scroll_member">
+                                    <div class="member_birthday__item">
+                                        <div class="item_avatar">
+                                            <img src="./assets/img/memberAvatar.png" alt="">
+                                        </div>
+                                        <div class="item_info">
+                                            <h5>Phan Duy Nam</h5>
+                                            <p>PM</p>
+                                            <p>20/12</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="member_birthday__item">
+                                        <div class="item_avatar">
+                                            <img src="./assets/img/memberAvatar.png" alt="">
+                                        </div>
+                                        <div class="item_info">
+                                            <h5>Phan Duy Nam</h5>
+                                            <p>PM</p>
+                                            <p>20/12</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="member_birthday__item">
+                                        <div class="item_avatar">
+                                            <img src="./assets/img/memberAvatar.png" alt="">
+                                        </div>
+                                        <div class="item_info">
+                                            <h5>Phan Duy Nam</h5>
+                                            <p>PM</p>
+                                            <p>20/12</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./assets/js/index.js"></script>
+
+</html>
